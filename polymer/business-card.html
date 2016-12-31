@@ -8,12 +8,18 @@
         <style is="custom-style">
             paper-card.rate {
                 @apply(--layout-horizontal);
+                top: 20px;
+                width: 40%;
             }
 
             .rate-image {
+                margin-top: -20px;
+                margin-right: 30px;
                 width: 100px;
-                height: 170px;
-                background-size: cover;
+                height: 120px;
+                background: url('images/profil.jpg');
+                background-size: contain;
+                background-repeat: no-repeat;
             }
 
             .rate-content {
@@ -40,7 +46,7 @@
                 <div class="card-content">
                     
                     <div class="rate-header">
-                    <iron-icon icon="social:plus-one"></iron-icon>
+                    <iron-icon icon="icons:perm-identity"></iron-icon>
                     Benedict Roth</div>
                     <div class="rate-name">
                     <iron-icon icon="icons:build"></iron-icon>
