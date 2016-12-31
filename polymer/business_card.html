@@ -1,0 +1,24 @@
+﻿<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="x-custom">
+
+    <template>
+        Hello World from
+        <span id="name"></span>!
+    </template>
+
+    <script>
+
+    Polymer({
+
+      is: 'business_card',
+
+      ready: function() {
+        this.$.name.textContent = this.tagName;
+      }
+
+    });
+
+    </script>
+
+</dom-module>
